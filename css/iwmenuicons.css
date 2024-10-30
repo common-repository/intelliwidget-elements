@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'iwmenuicons';
+  src:
+    url('fonts/iwmenuicons.ttf?ohi4ln') format('truetype'),
+    url('fonts/iwmenuicons.woff?ohi4ln') format('woff'),
+    url('fonts/iwmenuicons.svg?ohi4ln#iwmenuicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="iwicon-"], [class*=" iwicon-"], .pdflink::before, .xlslink::before, .doclink::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iwmenuicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iwicon-angle-down-lt::before {
+  content: "\e900";
+}
+.iwicon-angle-left-lt::before {
+  content: "\e901";
+}
+.iwicon-angle-right-lt::before {
+  content: "\e902";
+}
+.iwicon-angle-up-lt::before {
+  content: "\e903";
+}
+.iwicon-close-lt::before {
+  content: "\e904";
+}
+.iwicon-menu-lt::before {
+  content: "\e905";
+}
+.iwicon-triangle-down::before {
+  content: "\e906";
+}
+.iwicon-triangle-left::before {
+  content: "\e907";
+}
+.iwicon-triangle-right::before {
+  content: "\e908";
+}
+.iwicon-triangle-up::before {
+  content: "\e909";
+}
+.iwicon-arrow-down::before {
+  content: "\e90a";
+}
+.iwicon-arrow-left::before {
+  content: "\e90b";
+}
+.iwicon-arrow-right::before {
+  content: "\e90c";
+}
+.iwicon-arrow-up::before {
+  content: "\e90d";
+}
+.iwicon-arrow-down-lt::before {
+  content: "\e90e";
+}
+.iwicon-arrow-left-lt::before {
+  content: "\e90f";
+}
+.iwicon-arrow-right-lt::before {
+  content: "\e910";
+}
+.iwicon-arrow-up-lt::before {
+  content: "\e911";
+}
+.iwicon-circle-arrow-down::before {
+  content: "\e924";
+}
+.iwicon-circle-arrow-left::before {
+  content: "\e925";
+}
+.iwicon-circle-arrow-right::before {
+  content: "\e926";
+}
+.iwicon-circle-arrow-up::before {
+  content: "\e927";
+}
+.iwicon-angle-down::before {
+  content: "\e928";
+}
+.iwicon-angle-left::before {
+  content: "\e929";
+}
+.iwicon-angle-right::before {
+  content: "\e92a";
+}
+.iwicon-angle-up::before {
+  content: "\e92b";
+}
+.iwicon-circle-angle-down::before {
+  content: "\e92c";
+}
+.iwicon-circle-angle-left::before {
+  content: "\e92d";
+}
+.iwicon-circle-angle-right::before {
+  content: "\e92e";
+}
+.iwicon-circle-angle-up::before {
+  content: "\e92f";
+}
+.iwicon-search::before {
+  content: "\e912";
+}
+.iwicon-thumb::before {
+  content: "\e913";
+}
+.iwicon-comments::before {
+  content: "\e914";
+}
+.iwicon-phone::before {
+  content: "\e915";
+}
+.iwicon-email::before {
+  content: "\e916";
+}
+.iwicon-facebook::before {
+  content: "\e917";
+}
+.iwicon-facebook-rev::before {
+  content: "\e918";
+}
+.iwicon-instagram::before {
+  content: "\e919";
+}
+.iwicon-twitter::before {
+  content: "\e91a";
+}
+.iwicon-youtube::before {
+  content: "\e91b";
+}
+.iwicon-pinterest::before {
+  content: "\e91c";
+}
+.iwicon-pinterest-rev::before {
+  content: "\e91d";
+}
+.iwicon-file-pdf2::before {
+  content: "\e91e";
+}
+.iwicon-file-pdf::before, .pdflink::before {
+  content: "\e91f";
+}
+.iwicon-file-word::before, .doclink::before {
+  content: "\e920";
+}
+.iwicon-file-excel::before, .xlslink::before {
+  content: "\e921";
+}
+.iwicon-quote-close::before {
+  content: "\e922";
+}
+.iwicon-quote-open::before {
+  content: "\e923";
+}
+.iwicon-linkedin::before {
+  content: "\e930";
+}
